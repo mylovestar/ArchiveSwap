@@ -11,7 +11,11 @@ import Column, { AutoColumn } from '../../components/Column'
 import ConfirmSwapModal from '../../components/swap/ConfirmSwapModal'
 import CurrencyInputPanel from '../../components/CurrencyInputPanel'
 import { SwapPoolTabs } from '../../components/NavigationTabs'
+<<<<<<< HEAD
 import { AutoRow, RowBetween, RowBetween1, Contacts, Socials, Footer, Contact, Social } from '../../components/Row'
+=======
+import { AutoRow, RowBetween, RowBetween1, Contacts, Socials, Footer, Contact, Social, Socials1 } from '../../components/Row'
+>>>>>>> 67d3cd9 (changed theme for mobile)
 import AdvancedSwapDetailsDropdown from '../../components/swap/AdvancedSwapDetailsDropdown'
 import BetterTradeLink, { DefaultVersionLink } from '../../components/swap/BetterTradeLink'
 import confirmPriceImpactWithoutFee from '../../components/swap/confirmPriceImpactWithoutFee'
@@ -337,7 +341,11 @@ export default function Swap() {
                 <ArrowWrapper clickable>
                   <img
                     src="/images/arrowicon.svg"
+<<<<<<< HEAD
                     width="20"
+=======
+                    width="35"
+>>>>>>> 67d3cd9 (changed theme for mobile)
                     onClick={() => {
                       setApprovalSubmitted(false) // reset 2 step UI for approvals
                       onSwitchTokens()
@@ -378,7 +386,11 @@ export default function Swap() {
 
             {showWrap ? null : (
               <Card padding={showWrap ? '.25rem 1rem 0 1rem' : '0px'} borderRadius={'20px'}>
+<<<<<<< HEAD
                 <AutoColumn gap="8px" style={{ padding: '0 16px' }}>
+=======
+                <AutoColumn gap="8px">
+>>>>>>> 67d3cd9 (changed theme for mobile)
                   {Boolean(trade) && (
                     <RowBetween1 align="center">
                       <Text fontWeight={500} fontSize={14} color={'gray'}>
@@ -411,7 +423,11 @@ export default function Swap() {
                 <TYPE.main mb="4px">Unsupported Asset</TYPE.main>
               </ButtonPrimary>
             ) : !account ? (
+<<<<<<< HEAD
               <ButtonLight onClick={toggleWalletModal}>Connect Wallet</ButtonLight>
+=======
+              <ButtonLight onClick={toggleWalletModal}>CONNECT WALLET</ButtonLight>
+>>>>>>> 67d3cd9 (changed theme for mobile)
             ) : showWrap ? (
               <ButtonPrimary disabled={Boolean(wrapInputError)} onClick={onWrap}>
                 {wrapInputError ??
@@ -419,8 +435,13 @@ export default function Swap() {
               </ButtonPrimary>
             ) : noRoute && userHasSpecifiedInputOutput ? (
               <GreyCard style={{ textAlign: 'center' }}>
+<<<<<<< HEAD
                 <TYPE.main mt="5px">Insufficient liquidity for this trade.</TYPE.main>
                 {singleHopOnly && <TYPE.main mb="4px">Try enabling multi-hop trades.</TYPE.main>}
+=======
+                <TYPE.main1 mt="20px">Insufficient liquidity for this trade.</TYPE.main1>
+                {singleHopOnly && <TYPE.main1 mb="4px">Try enabling multi-hop trades.</TYPE.main1>}
+>>>>>>> 67d3cd9 (changed theme for mobile)
               </GreyCard>
             ) : showApproveFlow ? (
               <RowBetween>
@@ -522,11 +543,19 @@ export default function Swap() {
         <img src="/images/pseudo.png" alt="" style={{ width: "100%", marginTop: "150px" }} />
       </div>
       <Footer>
+<<<<<<< HEAD
         <Socials style={{visibility: 'hidden'}}>
           <img src="/images/twitter.svg" alt="" style={{ border: "1px solid #FE201F", borderRadius: "35px", padding: "15px", backgroundColor: "rgba(254, 32, 31, 0.23)" }} />
           <img src="/images/telegram.svg" alt="" style={{ border: "1px solid #FE201F", borderRadius: "35px", padding: "15px", backgroundColor: "rgba(254, 32, 31, 0.23)" }} />
           <img src="/images/git.svg" alt="" style={{ border: "1px solid #FE201F", borderRadius: "35px", padding: "15px", backgroundColor: "rgba(254, 32, 31, 0.23)" }} />
         </Socials>
+=======
+        <Socials1 style={{visibility: 'hidden'}}>
+          <img src="/images/twitter.svg" alt="" style={{ border: "1px solid #FE201F", borderRadius: "35px", padding: "15px", backgroundColor: "rgba(254, 32, 31, 0.23)" }} />
+          <img src="/images/telegram.svg" alt="" style={{ border: "1px solid #FE201F", borderRadius: "35px", padding: "15px", backgroundColor: "rgba(254, 32, 31, 0.23)" }} />
+          <img src="/images/git.svg" alt="" style={{ border: "1px solid #FE201F", borderRadius: "35px", padding: "15px", backgroundColor: "rgba(254, 32, 31, 0.23)" }} />
+        </Socials1>
+>>>>>>> 67d3cd9 (changed theme for mobile)
         <Contacts>
           <Contact><a href="" style={{ textDecoration: "none", color: "#CCCCFF", fontSize: "20px" }}>Features</a></Contact>
           <Contact><a href="" style={{ textDecoration: "none", color: "#CCCCFF", fontSize: "20px" }}>Ecosystem</a></Contact>

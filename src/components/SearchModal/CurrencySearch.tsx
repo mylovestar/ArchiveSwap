@@ -150,7 +150,11 @@ export function CurrencySearch({
     <ContentWrapper>
       <PaddedColumn gap="16px">
         <RowBetween>
+<<<<<<< HEAD
           <Text fontWeight={500} fontSize={16} color={'white'}>
+=======
+          <Text fontWeight={500} fontSize={16} fontFamily={"Chinese Rocks Rg"} color={'white'}>
+>>>>>>> 67d3cd9 (changed theme for mobile)
             Select a token
           </Text>
           <CloseIcon onClick={onDismiss} />

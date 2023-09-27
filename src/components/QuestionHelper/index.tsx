@@ -1,5 +1,9 @@
 import React, { useCallback, useState } from 'react'
+<<<<<<< HEAD
 import { Info as Info } from 'react-feather'
+=======
+// import { Info as Info } from 'react-feather'
+>>>>>>> 67d3cd9 (changed theme for mobile)
 import styled from 'styled-components'
 import Tooltip from '../Tooltip'
 
@@ -55,7 +59,11 @@ export default function QuestionHelper({ text }: { text: string }) {
     <span style={{ marginLeft: 4 }}>
       <Tooltip text={text} show={show}>
         <QuestionWrapper onClick={open} onMouseEnter={open} onMouseLeave={close}>
+<<<<<<< HEAD
           <Info size={16} />
+=======
+          <img src="/images/info.svg" alt="" />
+>>>>>>> 67d3cd9 (changed theme for mobile)
         </QuestionWrapper>
       </Tooltip>
     </span>

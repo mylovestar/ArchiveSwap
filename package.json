@@ -41,6 +41,10 @@
     "@web3-react/walletconnect-connector": "^6.1.1",
     "@web3-react/walletlink-connector": "^6.0.9",
     "ajv": "^6.12.3",
+<<<<<<< HEAD
+=======
+    "bignumber.js": "^9.0.0",
+>>>>>>> 67d3cd9 (changed theme for mobile)
     "cids": "^1.0.0",
     "copy-to-clipboard": "^3.2.0",
     "cross-env": "^7.0.2",
@@ -75,7 +79,11 @@
     "react-popper": "^2.2.3",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.0.0",
+<<<<<<< HEAD
     "react-scripts": "^3.4.1",
+=======
+    "react-scripts": "^3.4.4",
+>>>>>>> 67d3cd9 (changed theme for mobile)
     "react-spring": "^8.0.27",
     "react-use-gesture": "^6.0.14",
     "react-virtualized-auto-sizer": "^1.0.2",
@@ -85,11 +93,18 @@
     "serve": "^11.3.0",
     "start-server-and-test": "^1.11.0",
     "styled-components": "^4.2.0",
+<<<<<<< HEAD
     "typescript": "^3.8.3",
     "use-count-up": "^2.2.5",
     "wcag-contrast": "^3.0.0",
     "bignumber.js": "^9.0.0",
     "tailwindcss": "^3.3.2"
+=======
+    "tailwindcss": "^3.3.2",
+    "typescript": "^3.8.3",
+    "use-count-up": "^2.2.5",
+    "wcag-contrast": "^3.0.0"
+>>>>>>> 67d3cd9 (changed theme for mobile)
   },
   "resolutions": {
     "@walletconnect/web3-provider": "1.1.1-alpha.0"

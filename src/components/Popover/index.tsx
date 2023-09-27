@@ -36,9 +36,15 @@ const Arrow = styled.div`
     z-index: 9998;
 
     content: '';
+<<<<<<< HEAD
     border: 1px solid ${({ theme }) => theme.bg3};
     transform: rotate(45deg);
     background: #101010;
+=======
+    border: 1px solid #202020;
+    transform: rotate(45deg);
+    background: #202020;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   }
 
   &.arrow-top {

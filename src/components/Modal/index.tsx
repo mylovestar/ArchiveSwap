@@ -12,7 +12,15 @@ const AnimatedDialogOverlay = animated(DialogOverlay)
 const StyledDialogOverlay = styled(AnimatedDialogOverlay)`
   &[data-reach-dialog-overlay] {
     z-index: 2;
+<<<<<<< HEAD
     background-color: transparent;
+=======
+    // background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+>>>>>>> 67d3cd9 (changed theme for mobile)
     overflow: hidden;
 
     display: flex;
@@ -36,7 +44,11 @@ const StyledDialogContent = styled(({ minHeight, maxHeight, mobile, isOpen, ...r
   &[data-reach-dialog-content] {
     margin: 0 0 2rem 0;
     background-color: #101010;
+<<<<<<< HEAD
     border: 1px solid #FE201F;
+=======
+    border: 1px solid #FE201F23;
+>>>>>>> 67d3cd9 (changed theme for mobile)
     box-shadow: 0 4px 8px 0 ${({ theme }) => transparentize(0.95, theme.shadow1)};
     padding: 0px;
     width: 50vw;

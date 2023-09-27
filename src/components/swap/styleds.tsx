@@ -35,6 +35,7 @@ export const BottomGrouping = styled.div`
 `
 
 export const ErrorText = styled(Text)<{ severity?: 0 | 1 | 2 | 3 | 4 }>`
+<<<<<<< HEAD
   color: ${({ theme, severity }) =>
     severity === 3 || severity === 4
       ? theme.red1
@@ -43,6 +44,9 @@ export const ErrorText = styled(Text)<{ severity?: 0 | 1 | 2 | 3 | 4 }>`
       : severity === 1
       ? theme.blue1
       : theme.green1};
+=======
+  color: white;
+>>>>>>> 67d3cd9 (changed theme for mobile)
 `
 
 export const StyledBalanceMaxMini = styled.button`

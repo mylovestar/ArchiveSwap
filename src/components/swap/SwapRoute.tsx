@@ -16,11 +16,19 @@ export default memo(function SwapRoute({ trade }: { trade: Trade }) {
         return (
           <Fragment key={i}>
             <Flex alignItems="end">
+<<<<<<< HEAD
               <TYPE.black fontSize={14} color={'gray'} ml="0.125rem" mr="0.125rem">
                 {currency.symbol === 'ETH' ? 'ETH' : currency.symbol}
               </TYPE.black>
             </Flex>
             {isLastItem ? null : <ChevronRight size={12} color={'gray'} />}
+=======
+              <TYPE.black fontSize={14} color={'white'} ml="0.125rem" mr="0.125rem">
+                {currency.symbol === 'ETH' ? 'ETH' : currency.symbol}
+              </TYPE.black>
+            </Flex>
+            {isLastItem ? null : <ChevronRight size={12} color={'white'} />}
+>>>>>>> 67d3cd9 (changed theme for mobile)
           </Fragment>
         )
       })}

@@ -6,7 +6,12 @@ const StyledInput = styled.input<{ error?: boolean; fontSize?: string; align?: s
   color: white;
   width: 0;
   position: relative;
+<<<<<<< HEAD
   font-weight: 500;
+=======
+  font-weight: 700;
+  font-family: Poppins, sans-serif;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   outline: none;
   border: none;
   flex: 1 1 auto;

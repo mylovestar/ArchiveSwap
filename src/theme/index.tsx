@@ -74,7 +74,11 @@ export function colors(darkMode: boolean): Colors {
     primaryText1: darkMode ? '#6da8ff' : '#FFFFFF',
 
     // secondary colors
+<<<<<<< HEAD
     secondary1: darkMode ? '#2172E5' : '#ff007a',
+=======
+    secondary1: darkMode ? '#2172E5' : '#fe201f',
+>>>>>>> 67d3cd9 (changed theme for mobile)
     secondary2: darkMode ? '#17000b26' : '#F6DDE8',
     secondary3: darkMode ? '#17000b26' : '#FDEAF1',
 
@@ -141,6 +145,12 @@ export const TYPE = {
   main(props: TextProps) {
     return <TextWrapper fontWeight={500} color={'white'} {...props} />
   },
+<<<<<<< HEAD
+=======
+  main1(props: TextProps) {
+    return <TextWrapper fontWeight={500} fontFamily="Poppins, sans-serif" color={'white'} {...props} />
+  },
+>>>>>>> 67d3cd9 (changed theme for mobile)
   link(props: TextProps) {
     return <TextWrapper fontWeight={500} color={'primary1'} {...props} />
   },

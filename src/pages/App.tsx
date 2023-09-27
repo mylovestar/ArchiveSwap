@@ -60,7 +60,11 @@ const HeaderWrapper = styled.div`
 
 const BodyWrapper = styled.div`
   display: flex;
+<<<<<<< HEAD
   font-family: system-ui;
+=======
+  font-family: Poppins;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   flex-direction: column;
   width: 100%;
   padding-top: 100px;

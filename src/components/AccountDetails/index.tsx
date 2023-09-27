@@ -27,6 +27,11 @@ import { ExternalLink, LinkStyledButton, TYPE } from '../../theme'
 const HeaderRow = styled.div`
   ${({ theme }) => theme.flexRowNoWrap};
   padding: 1rem 1rem;
+<<<<<<< HEAD
+=======
+  font-size: 24px;
+  font-family: Chinese Rocks Rg;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   font-weight: 500;
   // color: ${props => (props.color === 'blue' ? ({ theme }) => theme.primary1 : 'inherit')};
   color: white;
@@ -166,6 +171,10 @@ const CloseColor = styled(Close)`
 
 const WalletName = styled.div`
   width: initial;
+<<<<<<< HEAD
+=======
+  font-family: Poppins, sans-serif;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   font-size: 0.825rem;
   font-weight: 500;
   color: ${({ theme }) => theme.text3};

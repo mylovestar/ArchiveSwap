@@ -25,8 +25,14 @@ export const LightGreyCard = styled(Card)`
 export const GreyCard = styled(Card)`
   background-color: ${({ theme }) => theme.bg3};
   border-radius: 27.5px;
+<<<<<<< HEAD
   height: 30px;
   color: white;
+=======
+  height: 56px;
+  color: white;
+  font-family: Poppins, sans-serif;
+>>>>>>> 67d3cd9 (changed theme for mobile)
 `
 
 export const OutlineCard = styled(Card)`

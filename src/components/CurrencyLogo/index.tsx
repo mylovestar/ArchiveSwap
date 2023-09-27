@@ -221,6 +221,10 @@ const StyledEthereumLogo = styled.img<{ size: string }>`
   height: ${({ size }) => size};
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.075);
   border-radius: 24px;
+<<<<<<< HEAD
+=======
+  filter: grayscale(1);
+>>>>>>> 67d3cd9 (changed theme for mobile)
 `
 
 const StyledLogo = styled(Logo) <{ size: string }>`
@@ -229,6 +233,10 @@ const StyledLogo = styled(Logo) <{ size: string }>`
   border-radius: ${({ size }) => size};
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.075);
   background-color: ${({ theme }) => theme.white};
+<<<<<<< HEAD
+=======
+  filter: grayscale(1);
+>>>>>>> 67d3cd9 (changed theme for mobile)
 `
 
 export default function CurrencyLogo({

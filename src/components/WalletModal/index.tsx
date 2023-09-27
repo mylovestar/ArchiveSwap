@@ -48,7 +48,11 @@ const HeaderRow = styled.div`
   ${({ theme }) => theme.flexRowNoWrap};
   padding: 1rem 1rem;
   font-weight: 500;
+<<<<<<< HEAD
   color: ${props => (props.color === 'blue' ? ({ theme }) => theme.primary1 : 'inherit')};
+=======
+  color: white;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   ${({ theme }) => theme.mediaWidth.upToMedium`
     padding: 1rem;
   `};
@@ -56,6 +60,10 @@ const HeaderRow = styled.div`
 
 const ContentWrapper = styled.div`
   background: #101010;
+<<<<<<< HEAD
+=======
+  color: white;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   padding: 2rem;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -107,6 +115,12 @@ const OptionGrid = styled.div`
 
 const HoverText = styled.div`
   color: white;
+<<<<<<< HEAD
+=======
+  font-weight: 500;
+  font-size: 24px;
+  font-family: Chinese Rocks Rg;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   :hover {
     cursor: pointer;
   }

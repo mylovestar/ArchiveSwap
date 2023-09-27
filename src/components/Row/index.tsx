@@ -52,8 +52,16 @@ export const Footer = styled.div`
   width: 60%;
   justify-content: space-between;
   align-items: center;
+<<<<<<< HEAD
   @media (max-width: 1024px) {
     flex-direction: column;
+=======
+  @media (max-width: 768px) {
+    justify-content: space-between;
+  }
+  @media (max-width: 490px) {
+    justify-content: center;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   }
 `
 
@@ -62,6 +70,12 @@ export const Contact = styled.div`
   :hover {
     color: white;
   }
+<<<<<<< HEAD
+=======
+  @media (max-width: 1024px) {
+    padding: 5px;
+  }
+>>>>>>> 67d3cd9 (changed theme for mobile)
 `
 
 export const Socials = styled.div`
@@ -70,6 +84,18 @@ export const Socials = styled.div`
   justify-content: center;
 `
 
+<<<<<<< HEAD
+=======
+export const Socials1 = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  @media screen and (max-width: 1440px) {
+    display: none;
+  }
+`
+
+>>>>>>> 67d3cd9 (changed theme for mobile)
 export const Social = styled.div`
   border: 1px solid #FE201F;
   border-radius: 35px; 

@@ -40,7 +40,12 @@ const Base = styled(RebassButton) <{
 
 export const ButtonPrimary = styled(Base)`
   background-color: #FE201F;
+<<<<<<< HEAD
   height: 30px;
+=======
+  height: 56px;
+  font-family: Poppins, sans-serif;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   color: white;
   border-radius: 27.5px;
   &:focus {
@@ -48,7 +53,11 @@ export const ButtonPrimary = styled(Base)`
     background-color: ${({ theme }) => darken(0.05, theme.primary1)};
   }
   &:hover {
+<<<<<<< HEAD
     background-color: ${({ theme }) => darken(0.05, theme.primary1)};
+=======
+    background-color: rgb(242 16 15);
+>>>>>>> 67d3cd9 (changed theme for mobile)
   }
   &:active {
     // box-shadow: 0 0 0 1pt ${({ theme }) => darken(0.1, theme.primary1)};
@@ -75,6 +84,11 @@ export const ButtonLight = styled(Base)`
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
+<<<<<<< HEAD
+=======
+  height: 56px;
+  font-family: Poppins, sans-serif;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   &:focus {
     // box-shadow: 0 0 0 1pt ${({ theme, disabled }) => !disabled && darken(0.03, theme.primary5)};
     // background-color: ${({ theme, disabled }) => !disabled && darken(0.03, theme.primary5)};
@@ -84,7 +98,11 @@ export const ButtonLight = styled(Base)`
   }
   &:hover {
     // background-color: ${({ theme, disabled }) => !disabled && darken(0.03, theme.primary5)};
+<<<<<<< HEAD
     background-color: #FE203F;
+=======
+    background-color: rgb(242 16 15);
+>>>>>>> 67d3cd9 (changed theme for mobile)
   }
   &:active {
     // box-shadow: 0 0 0 1pt ${({ theme, disabled }) => !disabled && darken(0.05, theme.primary5)};
@@ -94,7 +112,11 @@ export const ButtonLight = styled(Base)`
     opacity: 0.4;
     :hover {
       cursor: auto;
+<<<<<<< HEAD
       background-color: #FE201F;
+=======
+      background-color: rgb(242 16 15);
+>>>>>>> 67d3cd9 (changed theme for mobile)
       box-shadow: none;
       border: 1px solid transparent;
       outline: none;
@@ -111,7 +133,11 @@ export const ButtonGray = styled(Base)`
     background-color: #FE201F;
   }
   &:hover {
+<<<<<<< HEAD
     background-color: #FE201F;
+=======
+    background-color: rgb(242 16 15);
+>>>>>>> 67d3cd9 (changed theme for mobile)
   }
   &:active {
     background-color: #FE201F;
@@ -120,9 +146,17 @@ export const ButtonGray = styled(Base)`
 
 export const ButtonSecondary = styled(Base)`
   border: 1px solid #FE201F;
+<<<<<<< HEAD
   color: ${({ theme }) => theme.primary1};
   background-color: transparent;
   font-size: 16px;
+=======
+  color: white;
+  background-color: transparent;
+  font-size: 16px;
+  height: 56px;
+  font-family: Poppins, sans-serif;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   // border-radius: 12px;
   padding: ${({ padding }) => (padding ? padding : '10px')};
 
@@ -156,7 +190,11 @@ export const ButtonPink = styled(Base)`
     background-color: ${({ theme }) => darken(0.05, theme.primary1)};
   }
   &:hover {
+<<<<<<< HEAD
     background-color: ${({ theme }) => darken(0.05, theme.primary1)};
+=======
+    background-color: rgb(242 16 15);
+>>>>>>> 67d3cd9 (changed theme for mobile)
   }
   &:active {
     box-shadow: 0 0 0 1pt ${({ theme }) => darken(0.1, theme.primary1)};
@@ -172,8 +210,14 @@ export const ButtonPink = styled(Base)`
 export const ButtonUNIGradient = styled(ButtonPrimary)`
   color: white;
   padding: 4px 8px;
+<<<<<<< HEAD
   height: 36px;
   font-weight: 500;
+=======
+  height: 56px;
+  font-weight: 500;
+  font-family: Poppins, sans-serif;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   background-color: ${({ theme }) => theme.bg3};
   width: fit-content;
   position: relative;
@@ -191,7 +235,13 @@ export const ButtonUNIGradient = styled(ButtonPrimary)`
 export const ButtonOutlined = styled(Base)`
   border: 1px solid ${({ theme }) => theme.bg2};
   background-color: transparent;
+<<<<<<< HEAD
   color: ${({ theme }) => theme.text1};
+=======
+  color: white;
+  height: 56px;
+  font-family: Poppins, sans-serif;
+>>>>>>> 67d3cd9 (changed theme for mobile)
 
   &:focus {
     box-shadow: 0 0 0 1px ${({ theme }) => theme.bg4};
@@ -210,10 +260,19 @@ export const ButtonOutlined = styled(Base)`
 
 export const ButtonEmpty = styled(Base)`
   background-color: transparent;
+<<<<<<< HEAD
   color: ${({ theme }) => theme.primary1};
   display: flex;
   justify-content: center;
   align-items: center;
+=======
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  font-family: Poppins, sans-serif;
+>>>>>>> 67d3cd9 (changed theme for mobile)
 
   &:focus {
     text-decoration: underline;
@@ -234,6 +293,11 @@ export const ButtonWhite = styled(Base)`
   border: 1px solid #edeef2;
   background-color: ${({ theme }) => theme.bg1};
   color: black;
+<<<<<<< HEAD
+=======
+  height: 56px;
+  font-family: Poppins, sans-serif;
+>>>>>>> 67d3cd9 (changed theme for mobile)
 
   &:focus {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -255,6 +319,11 @@ const ButtonConfirmedStyle = styled(Base)`
   background-color: #FE206F;
   color: ${({ theme }) => theme.green1};
   border: 1px solid #FE206F;
+<<<<<<< HEAD
+=======
+  height: 56px;
+  font-family: Poppins, sans-serif;
+>>>>>>> 67d3cd9 (changed theme for mobile)
 
   &:disabled {
     opacity: 50%;
@@ -265,14 +334,23 @@ const ButtonConfirmedStyle = styled(Base)`
 const ButtonErrorStyle = styled(Base)`
   background-color: ${({ theme }) => theme.red1};
   border: 1px solid ${({ theme }) => theme.red1};
+<<<<<<< HEAD
   height: 30px;
+=======
+  height: 56px;
+  font-family: Poppins, sans-serif;
+>>>>>>> 67d3cd9 (changed theme for mobile)
 
   &:focus {
     box-shadow: 0 0 0 1pt ${({ theme }) => darken(0.05, theme.red1)};
     background-color: ${({ theme }) => darken(0.05, theme.red1)};
   }
   &:hover {
+<<<<<<< HEAD
     background-color: ${({ theme }) => darken(0.05, theme.red1)};
+=======
+    background-color: rgb(242 16 15);
+>>>>>>> 67d3cd9 (changed theme for mobile)
   }
   &:active {
     box-shadow: 0 0 0 1pt ${({ theme }) => darken(0.1, theme.red1)};

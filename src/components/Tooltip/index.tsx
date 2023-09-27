@@ -7,6 +7,10 @@ const TooltipContainer = styled.div`
   padding: 0.6rem 1rem;
   line-height: 150%;
   font-weight: 400;
+<<<<<<< HEAD
+=======
+  font-family: Poppins;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   background: #202020;
   color: white;
   border: 1px solid #202020;

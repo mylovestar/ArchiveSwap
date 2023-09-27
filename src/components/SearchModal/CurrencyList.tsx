@@ -129,15 +129,26 @@ function CurrencyRow({
     >
       <CurrencyLogo currency={currency} size={'24px'} />
       <Column>
+<<<<<<< HEAD
         <Text title={currency.name} fontWeight={500} color={'white'}>
           {currency.symbol === 'ETH' ? 'ETH' : currency.symbol}
         </Text>
         <TYPE.darkGray ml="0px" fontSize={'12px'} fontWeight={300} color={'white'}>
+=======
+        <Text title={currency.name} fontFamily={"Poppins"} fontWeight={500} color={'white'}>
+          {currency.symbol === 'ETH' ? 'ETH' : currency.symbol}
+        </Text>
+        <TYPE.darkGray ml="0px" fontSize={'12px'} fontFamily={"Poppins"} fontWeight={300} color={'white'}>
+>>>>>>> 67d3cd9 (changed theme for mobile)
           {currency.name === 'Ether' ? 'ETH' : currency.name} {!isOnSelectedList && customAdded && '• Added by user'}
         </TYPE.darkGray>
       </Column>
       <TokenTags currency={currency} />
+<<<<<<< HEAD
       <RowFixed style={{ justifySelf: 'flex-end' }}>
+=======
+      <RowFixed style={{ justifySelf: 'flex-end', fontFamily: 'Poppins' }}>
+>>>>>>> 67d3cd9 (changed theme for mobile)
         {balance ? <Balance balance={balance} /> : account ? <Loader /> : null}
       </RowFixed>
     </MenuItem>

@@ -80,6 +80,10 @@ export const SearchInput = styled.input`
   padding: 16px;
   align-items: center;
   width: 100%;
+<<<<<<< HEAD
+=======
+  font-family: Poppins;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   white-space: nowrap;
   background: none;
   border: none;
@@ -87,7 +91,11 @@ export const SearchInput = styled.input`
   border-radius: 20px;
   color: white;
   border-style: solid;
+<<<<<<< HEAD
   border: 1px solid ${({ theme }) => theme.bg3};
+=======
+  border: 1px solid #FE201F23;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   -webkit-appearance: none;
 
   font-size: 18px;
@@ -97,18 +105,30 @@ export const SearchInput = styled.input`
   }
   transition: border 100ms;
   :focus {
+<<<<<<< HEAD
     border: 1px solid ${({ theme }) => theme.primary1};
+=======
+    border: 1px solid #FE201F23;
+>>>>>>> 67d3cd9 (changed theme for mobile)
     outline: none;
   }
 `
 export const Separator = styled.div`
   width: 100%;
   height: 1px;
+<<<<<<< HEAD
   background-color: ${({ theme }) => theme.bg2};
+=======
+  background-color: #FE201F23;
+>>>>>>> 67d3cd9 (changed theme for mobile)
 `
 
 export const SeparatorDark = styled.div`
   width: 100%;
   height: 1px;
+<<<<<<< HEAD
   background-color: ${({ theme }) => theme.bg3};
+=======
+  background-color: #FE201F23;
+>>>>>>> 67d3cd9 (changed theme for mobile)
 `

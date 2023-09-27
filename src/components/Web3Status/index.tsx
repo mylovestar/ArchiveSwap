@@ -37,6 +37,7 @@ import WalletModal from '../WalletModal'
 
 const Web3StatusGeneric = styled(ButtonSecondary)`
   ${({ theme }) => theme.flexRowNoWrap}
+<<<<<<< HEAD
   width: 100%;
   align-items: center;
   padding: 0.5rem;
@@ -45,6 +46,16 @@ const Web3StatusGeneric = styled(ButtonSecondary)`
   // box-shadow: rgb(234 190 194) 0px 0px 5px, rgb(234 201 203) 0px 0px 7px;
   background: rgba(254, 32, 31, 0.09) !important;
   height: 45px;
+=======
+  width: 209.5px;
+  align-items: center;
+  padding: 16px 24px;
+  border-radius: 27px;
+  border: 1px solid #FE201F;
+  // box-shadow: rgb(234 190 194) 0px 0px 5px, rgb(234 201 203) 0px 0px 7px;
+  background: rgba(254, 32, 31, 0.09) !important;
+  height: 55.5px;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   cursor: pointer;
   user-select: none;
   opacity: 0.7;
@@ -110,11 +121,19 @@ const Text = styled.p`
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+<<<<<<< HEAD
   margin: 0 0.5rem 0 0.25rem;
   font-size: 14px;
   font-family: Poppins, sans-serif;
   width: fit-content;
   font-weight: 700;
+=======
+  // margin: 0 0.25rem 0 0.25rem;
+  font-size: 14px;
+  font-family: Poppins, sans-serif;
+  width: fit-content;
+  font-weight: 400;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   color: rgb(254 32 31);
   text-transform: uppercase;
   font-style: normal;
@@ -254,7 +273,11 @@ function Web3StatusInner() {
         }
         {
           error instanceof UnsupportedChainIdError && (ethereum && ethereum.isMetaMask) && <Web3StatusConnect id="connect-wallet" onClick={addMaticToMetamask} faded={!account}>
+<<<<<<< HEAD
             <img src="/images/walleticon.svg" width="20" alt="" />
+=======
+            <img src="/images/walleticon.svg" width="21.5" height="17.5" alt="" />
+>>>>>>> 67d3cd9 (changed theme for mobile)
             <Text>{t('Switch to Ethereum')}</Text>
           </Web3StatusConnect>
         }
@@ -264,7 +287,11 @@ function Web3StatusInner() {
     return (
       // <Web3StatusConnect id="connect-wallet"  onClick={(ethereum && ethereum.isMetaMask) ? addMaticToMetamask : toggleWalletModal} faded={!account}>
       <Web3StatusConnect id="connect-wallet"  onClick={toggleWalletModal} faded={!account}>
+<<<<<<< HEAD
         <img src="/images/walleticon.svg" width="20" alt="" />
+=======
+        <img src="/images/walleticon.svg" width="21.5" height="17.5" alt="" />
+>>>>>>> 67d3cd9 (changed theme for mobile)
         <Text>{(ethereum && ethereum.isMetaMask) ? t('Connect wallet') : t('Connect wallet')}</Text>
       </Web3StatusConnect>
     )

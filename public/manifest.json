@@ -17,6 +17,10 @@
   ],
   "orientation": "portrait",
   "display": "standalone",
+<<<<<<< HEAD
   "theme_color": "#ff007a",
+=======
+  "theme_color": "transparent",
+>>>>>>> 67d3cd9 (changed theme for mobile)
   "background_color": "#fff"
 }

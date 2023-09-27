@@ -7,7 +7,11 @@ import React, { useState } from 'react'
 
 import styled from 'styled-components'
 
+<<<<<<< HEAD
 import Logo1 from '../../assets/svg/logo.svg'
+=======
+import Logo1 from '../../assets/svg/logo.png'
+>>>>>>> 67d3cd9 (changed theme for mobile)
 // import LogoDark from '../../assets/svg/logo_white.svg'
 import { useActiveWeb3React } from '../../hooks'
 import { useDarkModeManager } from '../../state/user/hooks'
@@ -47,7 +51,11 @@ const HeaderFrame = styled.div`
   padding: 1rem;
   z-index: 2;
   ${({ theme }) => theme.mediaWidth.upToMedium`
+<<<<<<< HEAD
     grid-template-columns: 1fr;
+=======
+    // grid-template-columns: 1fr;
+>>>>>>> 67d3cd9 (changed theme for mobile)
     padding: 0 1rem;
     width: calc(100%);
     position: relative;
@@ -77,6 +85,7 @@ const HeaderControls = styled.div`
   flex-direction: row;
   align-items: center;
   justify-self: flex-end;
+<<<<<<< HEAD
 
   ${({ theme }) => theme.mediaWidth.upToMedium`
     flex-direction: row;
@@ -86,13 +95,30 @@ const HeaderControls = styled.div`
     max-width: 960px;
     padding: 1rem;
     position: fixed;
+=======
+  margin-right: 33.3%;
+
+  ${({ theme }) => theme.mediaWidth.upToMedium`
+    flex-direction: row;
+    justify-content: center;
+    // justify-self: center;
+    width: 100%;
+    max-width: 960px;
+    padding: 1rem;
+    margin-right: 76px;
+    // position: fixed;
+>>>>>>> 67d3cd9 (changed theme for mobile)
     bottom: 0px;
     left: 0px;
     width: 100%;
     z-index: 99;
     height: 72px;
     border-radius: 12px 12px 0 0;
+<<<<<<< HEAD
     background-color: ${({ theme }) => theme.bg1};
+=======
+    // background-color: ${({ theme }) => theme.bg1};
+>>>>>>> 67d3cd9 (changed theme for mobile)
   `};
 `
 
@@ -146,6 +172,10 @@ const HeaderRow = styled(RowFixed)`
 const AccountElement = styled.div<{ active: boolean }>`
   display: flex;
   flex-direction: row;
+<<<<<<< HEAD
+=======
+  justify-content: center;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   align-items: center;
   // background-color: ${({ theme, active }) => (!active ? theme.bg1 : theme.bg3)};
   // border: 1px solid rgb(239 156 165);
@@ -160,6 +190,14 @@ const AccountElement = styled.div<{ active: boolean }>`
   :focus {
     border: 1px solid blue;
   }
+<<<<<<< HEAD
+=======
+
+  @media (max-width: 490px) {
+    width: 150px;
+    margin-right: -110px;
+  }
+>>>>>>> 67d3cd9 (changed theme for mobile)
 `
 //autonio change background color 27-02-2021
 // const UNIAmount = styled(AccountElement)`
@@ -221,9 +259,17 @@ const Title = styled.a`
   align-items: center;
   pointer-events: auto;
   justify-self: flex-start;
+<<<<<<< HEAD
   margin-right: 40px;
   ${({ theme }) => theme.mediaWidth.upToSmall`
     justify-self: center;
+=======
+  margin-left: 56px;
+  margin-top: 17px;
+  ${({ theme }) => theme.mediaWidth.upToSmall`
+    display: flex;
+    justify-content: center;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   `};
   :hover {
     cursor: pointer;
@@ -232,9 +278,23 @@ const Title = styled.a`
 
 const UniIcon = styled.div`
   transition: transform 0.3s ease;
+<<<<<<< HEAD
   :hover {
     transform: rotate(-5deg);
   }
+=======
+  width: 140px;
+  height: 135.28px;
+  :hover {
+    transform: rotate(-5deg);
+  }
+
+  @media (max-width: 490px) {
+    width: 100px;
+    height: 98px;
+    margin-left: -50px;
+  }
+>>>>>>> 67d3cd9 (changed theme for mobile)
 `
 
 // const activeClassName = 'ACTIVE'
@@ -367,7 +427,11 @@ export default function Header() {
       <HeaderRow>
         <Title href="." style={{ position: 'relative' }}>
           <UniIcon>
+<<<<<<< HEAD
             <img width={110} height={106.291428} className="max-sm:w-[100px]" src={darkMode ? Logo1 : Logo1} alt="logo" />
+=======
+            <img width={"100%"} height={"100%"} className="max-sm:w-[100px]" src={darkMode ? Logo1 : Logo1} alt="logo" />
+>>>>>>> 67d3cd9 (changed theme for mobile)
           </UniIcon>
         </Title>
         {/* <HeaderLinks>

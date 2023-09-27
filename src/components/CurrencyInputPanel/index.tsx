@@ -22,12 +22,21 @@ const InputRow = styled.div<{ selected: boolean }>`
   border: 1px solid rgba(255, 255, 255, 0.10);
   border-radius: 38px;
   background-color: rgba(20, 20, 20, 0.70);
+<<<<<<< HEAD
+=======
+  height: 58px;
+>>>>>>> 67d3cd9 (changed theme for mobile)
 `
 
 // autonio ui change 27-02-2021 in following color
 const CurrencySelect = styled.button<{ selected: boolean }>`
   align-items: center;
+<<<<<<< HEAD
   height: 2.2rem;
+=======
+  width: 158px;
+  height: 56px;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   font-size: 20px;
   font-weight: 500;
   background-color: #1C1C1C;
@@ -42,7 +51,11 @@ const CurrencySelect = styled.button<{ selected: boolean }>`
 
   :focus,
   :hover {
+<<<<<<< HEAD
     background-color: #342f2f;
+=======
+    background-color: rgb(38 38 38);
+>>>>>>> 67d3cd9 (changed theme for mobile)
   }
 `
 
@@ -52,7 +65,11 @@ const LabelRow = styled.div`
   color: ${({ theme }) => theme.text1};
   font-size: 0.75rem;
   line-height: 1rem;
+<<<<<<< HEAD
   padding: 0.75rem 1rem 0 1rem;
+=======
+  padding: 0.75rem 0rem 0.75rem 0rem;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   span:hover {
     cursor: pointer;
     color: ${({ theme }) => darken(0.2, theme.text2)};
@@ -63,6 +80,10 @@ const Aligner = styled.span`
   display: flex;
   align-items: center;
   justify-content: space-between;
+<<<<<<< HEAD
+=======
+  padding: 0 15px;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   
 `
 // autonio ui change 27-02-2021 in following stroke color
@@ -88,6 +109,10 @@ const Container = styled.div<{ hideInput: boolean }>`
   // border-radius: ${({ hideInput }) => (hideInput ? '8px' : '12px')};
   // border: 1px solid #d83c79;
   background-color: transparent;
+<<<<<<< HEAD
+=======
+  padding-bottom: 1.25rem;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   // :hover {
   //   border: 2px solid #3387ed;
   //   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.075);
@@ -96,6 +121,10 @@ const Container = styled.div<{ hideInput: boolean }>`
 
 const StyledTokenName = styled.span<{ active?: boolean }>`
   ${({ active }) => (active ? '  margin: 0 0.25rem 0 0.75rem;' : '  margin: 0 0.25rem 0 0.25rem;')}
+<<<<<<< HEAD
+=======
+  font-family: Poppins, sans-serif;
+>>>>>>> 67d3cd9 (changed theme for mobile)
   font-size:  ${({ active }) => (active ? '16px' : '16px')};
   color: white;
 `
@@ -175,7 +204,11 @@ export default function CurrencyInputPanel({
         {!hideInput && (
           <LabelRow>
             <RowBetween1>
+<<<<<<< HEAD
               {account && (
+=======
+              {/* {account && ( */}
+>>>>>>> 67d3cd9 (changed theme for mobile)
                 <TYPE.body
                   onClick={onMax}
                   color={'gray'}
@@ -185,12 +218,21 @@ export default function CurrencyInputPanel({
                 >
                   {!hideBalance && !!currency && selectedCurrencyBalance
                     ? (customBalanceText ?? 'Balance: ') + selectedCurrencyBalance?.toSignificant(6)
+<<<<<<< HEAD
                     : ' -'}
                 </TYPE.body>
               )}
 
             </RowBetween1>
             <TYPE.body color={'gray'} fontWeight={500} fontSize={14} minWidth={'95px'} textAlign={'end'}>
+=======
+                    : 'Balance: -'}
+                </TYPE.body>
+              {/* )} */}
+
+            </RowBetween1>
+            <TYPE.body color={'gray'} fontWeight={500} fontSize={14} minWidth={'120px'} textAlign={'end'}>
+>>>>>>> 67d3cd9 (changed theme for mobile)
               {label}
             </TYPE.body>
           </LabelRow>
